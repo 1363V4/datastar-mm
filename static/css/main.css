@@ -23,4 +23,5 @@ body {
 main {
     place-self: center;
     font-size: 14rem;
+    font-variant-numeric: tabular-nums; /* not-working sadge  */
 }
