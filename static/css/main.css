@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Sunairola';
+    src: url('../fonts/Sunairola-KVwvl.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sunairola', sans-serif;
+}
+
+
+body {
+    display: grid;
+    background: grey;
+    color: lightgray;
+    min-height: 100svh;
+}
+
+main {
+    place-self: center;
+    font-size: 4rem;
+}

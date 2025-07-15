@@ -1,0 +1,12 @@
+[project]
+name = "datastar-mm"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "datastar-py>=0.6.0",
+    "faker>=37.4.0",
+    "sanic>=25.3.0",
+    "tinydb>=4.8.2",
+]
