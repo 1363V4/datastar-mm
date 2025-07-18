@@ -11,6 +11,20 @@ app.static("/", "index.html", name="index")
 
 
 SURPRISE_HTML = """
+<main id="main" data-signals-screen=0>
+    <div data-show="$screen == 0">hello there</div>
+    <div data-show="$screen == 1">i make music</div>
+    <div data-show="$screen == 2">now it is done</div>
+    <a href="https://mariemalheur.bandcamp.com/album/deathless">
+        <img data-show="$screen == 3" src="/static/img/cover_final.png"/>
+    </a>
+    <div class="normal">
+        <p data-show="$screen == 0">i have something to tell you</p>
+        <p data-show="$screen == 1">and i have been working on a new album</p>
+        <p data-show="$screen == 2">i really hope you will like it <3</p>
+        <button data-on-click__viewTransition="$screen += 1" data-show="$screen < 3">Next</button>
+    </div>                                                                  
+</main>
 """
 
 
